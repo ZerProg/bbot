@@ -4,7 +4,7 @@ import telebot, zerru, time
 import requests
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot("7306636737:AAEHlFNyYGAWbvAA9iIinMNMba56-ddzhGI")
+bot = telebot.TeleBot("TOKEN")
 
 def receivingData(data, chat, mess, mode, ERROR=True):
     if mode=="news" or mode=="news_day":
